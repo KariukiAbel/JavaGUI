@@ -213,8 +213,10 @@ public class NewJFrame extends javax.swing.JFrame {
        String mAge=jTextField3.getText().toString();
         String mBilled=jTextField4.getText().toString();
            String mPaid=jTextField5.getText().toString();
-              String mBalance=jTextField6.getText().toString();
-     
+              int bill=Integer.parseInt(mBilled);
+    int paid=Integer.parseInt(mPaid);
+    int bal=bill-paid;
+    String mBalance=;
         // create an 2D arraylist here 
 //        ArrayList<Details> details = new ArrayList<Details>();
 //        //insert into the array list each time the user enters details
